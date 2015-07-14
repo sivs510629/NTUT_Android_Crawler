@@ -1,3 +1,0 @@
-from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice
-device = MonkeyRunner.waitForConnection()
-device.touch(631, 98, MonkeyDevice.DOWN)

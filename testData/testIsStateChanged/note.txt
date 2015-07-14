@@ -1,1 +1,0 @@
-State_1.xml 和 State_2_equal.xml 不同之處是第一個 focused 的值一個是 true 另一個是 false

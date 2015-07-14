@@ -1,9 +1,0 @@
-digraph activity_1{
-imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150624_224947";
-state_1[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_1</td></tr><tr><td>incoming:1</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="1.png"/></td></tr></table>>,shape=box,margin=0,URL="1.png"];
-state_15[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_15</td></tr><tr><td>incoming:1</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="15.png"/></td></tr></table>>,shape=box,margin=0,URL="15.png"];
-activity_0 [fontcolor = red,color = red];
-activity_0 -> state_1 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
-activity_0 [fontcolor = red,color = red];
-activity_0 -> state_15 [label = "   click(\"圖庫\")   ",fontcolor = red,color = red];
-}
