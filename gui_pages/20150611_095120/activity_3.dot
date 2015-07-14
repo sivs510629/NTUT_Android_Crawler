@@ -1,0 +1,16 @@
+digraph activity_3{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150611_095120";
+state_22[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_22</td></tr><tr><td>incoming:6</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="22.png"/></td></tr></table>>,shape=box,margin=0,URL="22.png"];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   swipe(\"Right\")   ",fontcolor = red,color = red];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   swipe(\"Left\")   ",fontcolor = red,color = red];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_22 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+}

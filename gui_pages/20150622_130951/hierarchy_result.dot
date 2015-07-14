@@ -1,0 +1,34 @@
+digraph result {
+rankdir=LR;
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150622_130951";
+initial [label="",shape=plaintext,fixedsize=true,width=0.7,height=0.7,image="-1.png"];
+activity_0[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>activity_0</td></tr><tr><td>incoming:2</td></tr><tr><td>outgoing:4</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="0.png"/></td></tr></table>>,shape=box,margin=0,URL="activity_0.svg"];
+activity_1[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>activity_1</td></tr><tr><td>incoming:6</td></tr><tr><td>outgoing:13</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="1.png"/></td></tr></table>>,shape=box,margin=0,URL="activity_1.svg"];
+activity_2[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>activity_2</td></tr><tr><td>incoming:1</td></tr><tr><td>outgoing:6</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="8.png"/></td></tr></table>>,shape=box,margin=0,URL="activity_2.svg"];
+final [label="",shape=plaintext,width=0.7,height=0.7,image="-2.png",fixedsize=true];
+activity_4[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>activity_4</td></tr><tr><td>incoming:6</td></tr><tr><td>outgoing:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="15.png"/></td></tr></table>>,shape=box,margin=0,URL="activity_4.svg"];
+initial -> activity_0;
+activity_0 -> activity_1 [label = "   <a0.s0,click(\"index=0\"),a1.s1>   "];
+activity_0 -> activity_1 [label = "   <a0.s0,swipe(\"Right\"),a1.s1>   "];
+activity_0 -> activity_1 [label = "   <a0.s0,swipe(\"Left\"),a1.s1>   "];
+activity_0 -> activity_1 [label = "   <a0.s0,press(\"BackKey\"),a1.s1>   "];
+activity_1 -> activity_2 [label = "   <a1.s1,click(\"index=1\"),a2.s8>   "];
+activity_1 -> final [label = "   <a1.s1,press(\"BackKey\"),final>   "];
+activity_1 -> activity_0 [label = "   <a1.s13,click(\"index=0\"),a0.s0>   "];
+activity_1 -> activity_0 [label = "   <a1.s13,click(\"index=4\"),a0.s0>   "];
+activity_1 -> activity_3 [label = "   <a1.s13,click(\"index=0\"),a3.s14>   "];
+activity_1 -> activity_4 [label = "   <a1.s13,click(\"index=0\"),a4.s15>   "];
+activity_1 -> activity_3 [label = "   <a1.s13,click(\"index=0\"),a3.s16>   "];
+activity_1 -> activity_4 [label = "   <a1.s13,click(\"index=0\"),a4.s17>   "];
+activity_1 -> activity_3 [label = "   <a1.s13,click(\"index=0\"),a3.s14>   "];
+activity_1 -> activity_4 [label = "   <a1.s13,click(\"index=1\"),a4.s15>   "];
+activity_1 -> activity_3 [label = "   <a1.s13,click(\"index=2\"),a3.s21>   "];
+activity_1 -> activity_4 [label = "   <a1.s13,click(\"index=3\"),a4.s17>   "];
+activity_2 -> activity_1 [label = "   <a2.s8,click(\"index=0\"),a1.s29>   "];
+activity_2 -> activity_1 [label = "   <a2.s8,press(\"BackKey\"),a1.s29>   "];
+activity_2 -> activity_3 [label = "   <a2.s36,click(\"index=0\"),a3.s21>   "];
+activity_2 -> activity_4 [label = "   <a2.s36,click(\"index=0\"),a4.s17>   "];
+activity_2 -> activity_3 [label = "   <a2.s36,click(\"index=0\"),a3.s21>   "];
+activity_2 -> activity_4 [label = "   <a2.s36,click(\"index=1\"),a4.s17>   "];
+activity_1 -> activity_3 [label = "   <a1.s29,click(\"好\"),a3.s14>   "];
+}

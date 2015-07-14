@@ -1,0 +1,28 @@
+digraph activity_0{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150624_224947";
+state_0[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_0</td></tr><tr><td>incoming:9</td></tr><tr><td>outgoing:8</td></tr><tr><td>loop:5</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="0.png"/></td></tr></table>>,shape=box,margin=0,URL="0.png"];
+state_8[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_8</td></tr><tr><td>incoming:3</td></tr><tr><td>outgoing:6</td></tr><tr><td>loop:2</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="8.png"/></td></tr></table>>,shape=box,margin=0,URL="8.png"];
+state_9[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_9</td></tr><tr><td>incoming:4</td></tr><tr><td>outgoing:5</td></tr><tr><td>loop:3</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="9.png"/></td></tr></table>>,shape=box,margin=0,URL="9.png"];
+state_0 -> state_0 [label = "   click(\"index=1\")   "];
+state_0 -> state_0 [label = "   click(\"index=2\")   "];
+state_0 -> state_0 [label = "   click(\"index=3\")   "];
+state_0 -> state_0 [label = "   swipe(\"Right\")   "];
+state_0 -> state_0 [label = "   swipe(\"Left\")   "];
+state_0 -> state_8 [label = "   press(\"MenuKey\")   "];
+activity_1 [fontcolor = red,color = red];
+state_0 -> activity_1 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+final [label="",shape=plaintext,width=0.7,height=0.7,image="-2.png",fixedsize=true];
+state_0 -> final [label = "   press(\"BackKey\")   ",fontcolor = red,color = red];
+state_8 -> state_9 [label = "   click(\"About\")   "];
+state_8 -> state_8 [label = "   swipe(\"Right\")   "];
+state_8 -> state_8 [label = "   swipe(\"Left\")   "];
+state_8 -> state_0 [label = "   press(\"BackKey\")   "];
+state_8 -> state_0 [label = "   press(\"MenuKey\")   "];
+activity_1 [fontcolor = red,color = red];
+state_8 -> activity_1 [label = "   click(\"圖庫\")   ",fontcolor = red,color = red];
+state_9 -> state_0 [label = "   click(\"確定\")   "];
+state_9 -> state_9 [label = "   swipe(\"Right\")   "];
+state_9 -> state_9 [label = "   swipe(\"Left\")   "];
+state_9 -> state_0 [label = "   press(\"BackKey\")   "];
+state_9 -> state_9 [label = "   press(\"MenuKey\")   "];
+}

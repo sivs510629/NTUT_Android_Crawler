@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+    <node index="0" text="" class="android.widget.FrameLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]">
+        <node index="0" text="" class="android.view.View" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]" />
+        <node index="1" text="" class="android.widget.LinearLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]">
+            <node index="0" text="" class="android.widget.FrameLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,50][720,1280]">
+                <node index="0" text="" class="android.support.v4.view.ViewPager" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,50][720,1280]">
+                    <node index="0" text="" class="android.widget.FrameLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="true" long-clickable="false" password="false" selected="false" bounds="[0,50][720,1280]">
+                        <node index="0" text="" class="android.widget.LinearLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][720,1280]">
+                            <node index="1" text="" class="android.widget.RelativeLayout" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,50][720,1280]">
+                                <node index="0" text="此页面是空白的 点选此处开始输入" class="android.widget.EditText" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[16,66][704,1237]" />
+                                <node index="1" text="第1页，共1页" class="android.widget.TextView" package="org.korosoft.simplenotepad.android" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[16,1130][704,1237]" />
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+    </node>
+</hierarchy>

@@ -1,0 +1,21 @@
+0 tap 48 98
+1 new activity, rollback
+0 tap 360 713
+2 new activity, rollback
+0 pick a new activity, tap 360 713
+3 tap 48 98
+1 new activity, rollback
+0 tap 360 713
+1 new activity, rollback
+
+
+
+
+
+0 tap 48 98
+1 new activity, rollback
+0 tap 360 713
+2 new activity, rollback
+0 pick a new activity, tap 360 713
+2 new state, ??
+2 pick a new activity, tap 360 173 ??

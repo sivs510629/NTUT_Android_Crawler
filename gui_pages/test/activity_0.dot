@@ -1,0 +1,8 @@
+digraph activity_0{
+imagepath="C:\Users\Roger\Desktop\AndroidCrawler\AndroidCrawler\gui_pages\test";
+state_0[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="0.png",URL="0.png"];
+state_1[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="1.png",URL="1.png"];
+state_0 -> state_0 [label = "  click 9,8  "];
+state_0 -> state_1 [label = "  click 2,5  "];
+state_0 -> state_1 [label = "  click 1,3  "];
+}

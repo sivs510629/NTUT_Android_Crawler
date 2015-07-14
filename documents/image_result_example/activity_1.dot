@@ -1,0 +1,20 @@
+digraph activity_1{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150512_113152";
+state_8[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="8.png",URL="8.png"];
+state_47[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="47.png",URL="47.png"];
+state_48[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="48.png",URL="48.png"];
+state_49[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="49.png",URL="49.png"];
+state_50[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="50.png",URL="50.png"];
+state_8 -> state_47 [label = "   click(\"index=0\")   "];
+activity_0 [fontcolor = red,color = red];
+state_8 -> activity_0 [label = "   click(\"index=0\")   ",fontcolor = red,color = red];
+state_8 -> state_8 [label = "   swipe right   "];
+state_8 -> state_8 [label = "   swipe left   "];
+activity_0 [fontcolor = red,color = red];
+state_8 -> activity_0 [label = "   press(\"BackKey\")   ",fontcolor = red,color = red];
+state_8 -> state_8 [label = "   press(\"MenuKey\")   "];
+state_47 -> state_48 [label = "   swipe right   "];
+state_48 -> state_49 [label = "   swipe right   "];
+state_49 -> state_50 [label = "   swipe right   "];
+state_50 -> state_47 [label = "   swipe right   "];
+}

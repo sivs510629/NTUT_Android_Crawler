@@ -1,0 +1,12 @@
+digraph activity_1{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150623_132208";
+state_33[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_33</td></tr><tr><td>incoming:4</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="33.png"/></td></tr></table>>,shape=box,margin=0,URL="33.png"];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_33 [label = "   press(\"BackKey\")   ",fontcolor = red,color = red];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_33 [label = "   click(\"給5星\")   ",fontcolor = red,color = red];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_33 [label = "   press(\"BackKey\")   ",fontcolor = red,color = red];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_33 [label = "   click(\"給5星\")   ",fontcolor = red,color = red];
+}

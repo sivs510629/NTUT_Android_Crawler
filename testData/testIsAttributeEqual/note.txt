@@ -1,0 +1,1 @@
+1.xml 和 2_equal.xml 在第一個 focused 值不同，一個是 true 另一個是 false
