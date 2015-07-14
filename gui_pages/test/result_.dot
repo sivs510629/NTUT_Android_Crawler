@@ -1,8 +1,0 @@
-digraph activity_2{
-rankdir=LR;
-imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\test";
-0[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="0.png",URL="activity_0.svg"];
-1[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="2.png",URL="activity_1.svg"];
-"Start" -> 0;
-0 -> 1 [label = "click 4,7"];
-}

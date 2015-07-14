@@ -1,9 +1,0 @@
-digraph result {
-rankdir=LR;
-imagepath="C:\Users\Roger\Desktop\AndroidCrawler\AndroidCrawler\gui_pages\test";
-activity_0 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="0.png",URL="activity_0.svg"];
-activity_1 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="2.png",URL="activity_1.svg"];
-start [label="",shape = plaintext,fixedsize=true,width=0.7,height=0.7,image ="uml_state_final.png"];
-start -> activity_0;
-activity_0 -> activity_1 [label = "  state_0 \"click 4,7\" state_2  "];
-}

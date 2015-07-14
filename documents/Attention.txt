@@ -1,9 +1,0 @@
-* 狀態判斷需要忽略屬性是 focused 的狀態，因為此狀態只是判斷 App 目前輸入文字時哪個部分未接收到輸入事件，不影響整體 App 的狀態，故可忽略。
-* 事件觸發後，需要等待適當的時間，防止UI尚未轉換完成使得UI判斷錯誤。
-* 使用SDK/tools/monkeyrunner.bat "monkeyrunner script file" ，幫助產生long-press事件
-* 當 Clickable 是 ListView 或 GridView 時，須要對其子元素 (child elements) 產生 click event，而不是原先的 ListView 或 GridView 產生 click event
-* 當 Scrollable 時須產生向上、向下、向左和向右四種方向的滑動事件
-* 當有 Soft Keyboard 產生時，須要先把 Soft Keyboard 隱藏後再 dump xml 才不會有 layout 錯誤的狀況 (下指令 adb shell dumpsys input_method 當回傳值存在 "mInputShown=true" 則鍵盤有顯示，如果是存在 "mInputShown=false"則鍵盤沒顯示)
-* 輸入文字的事件需要將要輸入的文字存在一個文字檔中， 格式為(XPath, Value)，文字輸入前需要先將文字方塊清空再輸入，文字輸入後再輸入 KEYCODE_Enter event，再把 Enter event 清除，最後再隱藏鍵盤，完成一個文字輸入的事件
-* 文字輸入如果存在 XPath 重複的情況可能會有無限迴圈重複輸入的狀態爆炸(目前未解決)
-* 偵測目前的 Activity 請使用 adb shlell dumpsys window windows | find "mFocusedApp"
