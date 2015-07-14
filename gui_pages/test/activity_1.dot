@@ -1,0 +1,4 @@
+digraph activity_1{
+imagepath="C:\Users\Roger\Desktop\AndroidCrawler\AndroidCrawler\gui_pages\test";
+state_2[label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="2.png",URL="2.png"];
+}

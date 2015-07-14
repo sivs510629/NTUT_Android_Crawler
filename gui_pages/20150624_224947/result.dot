@@ -1,0 +1,32 @@
+digraph g {
+graph [color=red];
+imagepath = "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150624_224947";
+label = "   activity_0   ";
+state_0 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="0.png",URL="0.png"];
+state_8 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="8.png",URL="8.png"];
+state_9 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="9.png",URL="9.png"];
+label = "   activity_1   ";
+state_1 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="1.png",URL="1.png"];
+state_15 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="15.png",URL="15.png"];
+label = "   activity_2   ";
+state_final [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="-2.png",URL="-2.png"];
+state_0 -> state_0 [label = "   click(\"index=1\")   "];
+state_0 -> state_0 [label = "   click(\"index=2\")   "];
+state_0 -> state_0 [label = "   click(\"index=3\")   "];
+state_0 -> state_0 [label = "   swipe(\"Right\")   "];
+state_0 -> state_0 [label = "   swipe(\"Left\")   "];
+state_0 -> state_8 [label = "   press(\"MenuKey\")   "];
+state_0 -> state_1 [label = "   click(\"index=0\")   "];
+state_0 -> state_final [label = "   press(\"BackKey\")   "];
+state_8 -> state_9 [label = "   click(\"About\")   "];
+state_8 -> state_8 [label = "   swipe(\"Right\")   "];
+state_8 -> state_8 [label = "   swipe(\"Left\")   "];
+state_8 -> state_0 [label = "   press(\"BackKey\")   "];
+state_8 -> state_0 [label = "   press(\"MenuKey\")   "];
+state_8 -> state_15 [label = "   click(\"圖庫\")   "];
+state_9 -> state_0 [label = "   click(\"確定\")   "];
+state_9 -> state_9 [label = "   swipe(\"Right\")   "];
+state_9 -> state_9 [label = "   swipe(\"Left\")   "];
+state_9 -> state_0 [label = "   press(\"BackKey\")   "];
+state_9 -> state_9 [label = "   press(\"MenuKey\")   "];
+}

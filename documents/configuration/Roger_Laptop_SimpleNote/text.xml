@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+	<!--<value xpath="XPath">Value</value>-->
+	<!--example: <node xpath="//*/node[@NAF='ture'][@class='android.widget.EditText']">testText</value>-->
+	<!-- simplenote -->
+	<!-- 
+	<value xpath="//*/node[@index='0'][@class='android.widget.FrameLayout']/node[@index='0']/node[@index='1']/node[@index='0'][@class='android.widget.EditText']">a</value>
+	-->
+	<value xpath="//*/node[@index='0'][@class='android.widget.FrameLayout']/node[@index='0']/node[@index='1'][count(node[@text='第1页，共1页'])]/node[@index='0'][@class='android.widget.EditText']">a</value>
+</text>

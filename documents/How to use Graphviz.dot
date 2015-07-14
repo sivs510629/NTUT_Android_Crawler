@@ -1,0 +1,1 @@
+digraph g {a[label = "a"];b[label = "b"];c[label = "b"];a -> b -> c;"id 2" -> "id 3" [label = "edge1"];}
