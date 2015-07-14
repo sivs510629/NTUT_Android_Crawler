@@ -1,0 +1,14 @@
+digraph result {
+rankdir=LR;
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150624_183538";
+initial [label="",shape=plaintext,fixedsize=true,width=0.7,height=0.7,image="-1.png"];
+activity_0[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>activity_0</td></tr><tr><td>incoming:0</td></tr><tr><td>outgoing:6</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="0.png"/></td></tr></table>>,shape=box,margin=0,URL="activity_0.svg"];
+final [label="",shape=plaintext,width=0.7,height=0.7,image="-2.png",fixedsize=true];
+initial -> activity_0;
+activity_0 -> final [label = "   <a0.s0,press(\"BackKey\"),final>   "];
+activity_0 -> final [label = "   <a0.s3,press(\"BackKey\"),final>   "];
+activity_0 -> activity_1 [label = "   <a0.s5,click(\"給5星\"),a1.s30>   "];
+activity_0 -> final [label = "   <a0.s6,press(\"BackKey\"),final>   "];
+activity_0 -> activity_1 [label = "   <a0.s9,click(\"給5星\"),a1.s39>   "];
+activity_0 -> final [label = "   <a0.s10,press(\"BackKey\"),final>   "];
+}

@@ -1,0 +1,2401 @@
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: adb server is out of date.  killing...
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/0.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/0.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/0.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/0.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/0.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/0.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/0.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/1.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/1.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/1.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/1.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/1.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/1.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/1.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/2.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/2.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/2.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/2.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/2.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/2.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/2.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1 960 1079 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/3.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/3.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/3.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/3.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/3.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/3.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/3.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1079 960 1 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/4.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/4.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/4.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/4.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/4.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/4.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/4.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/5.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/5.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/5.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/5.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/5.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/5.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/5.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/6.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/6.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/6.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/6.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/6.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/6.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/6.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/7.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/7.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/7.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/7.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/7.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/7.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/7.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 543 1149
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/8.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/8.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/8.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/8.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/8.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/8.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/8.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 17 997 1063 997
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/9.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/9.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/9.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/9.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/9.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/9.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/9.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1063 997 17 997
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/10.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/10.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/10.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/10.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/10.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/10.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/10.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/11.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/11.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/11.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/11.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/11.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/11.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/11.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/12.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/12.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/12.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/12.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/12.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/12.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/12.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+<<pick old state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+<<pick old state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1 1803 1079 1803
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/13.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/13.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/13.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/13.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/13.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/13.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/13.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1079 1803 1 1803
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/14.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/14.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/14.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/14.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/14.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/14.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/14.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/15.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/15.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/15.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/15.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/15.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/15.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/15.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/16.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/16.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/16.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/16.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/16.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/16.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/16.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+<<pick old state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1821
+Execute Output: null
+<<pick a new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 208 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/17.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/17.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/17.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/17.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/17.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/17.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/17.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/18.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/18.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/18.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/18.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/18.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/18.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/18.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/19.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/19.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/19.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/19.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/19.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/19.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/19.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 208 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/20.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/20.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/20.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/20.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/20.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/20.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/20.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/21.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/21.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/21.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/21.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/21.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/21.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/21.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/22.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/22.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/22.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/22.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/22.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/22.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/22.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/23.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/23.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/23.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/23.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/23.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/23.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/23.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/24.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/24.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/24.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/24.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/24.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/24.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/24.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 208 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/25.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/25.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/25.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/25.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/25.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/25.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/25.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/26.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/26.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/26.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/26.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/26.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/26.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/26.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/27.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/27.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/27.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/27.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/27.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/27.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/27.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/28.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/28.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/28.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/28.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/28.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/28.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/28.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/29.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/29.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/29.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/29.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/29.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/29.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/29.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1 960 1079 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/30.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/30.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/30.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/30.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/30.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/30.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/30.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1079 960 1 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/31.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/31.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/31.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/31.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/31.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/31.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/31.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/32.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/32.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/32.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/32.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/32.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/32.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/32.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/33.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/33.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/33.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/33.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/33.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/33.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/33.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 183 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/34.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/34.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/34.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/34.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/34.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/34.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/34.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 539 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/35.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/35.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/35.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/35.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/35.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/35.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/35.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 896 1821
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/36.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/36.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/36.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/36.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/36.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/36.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/36.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1 1803 1079 1803
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/37.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/37.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/37.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/37.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/37.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/37.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/37.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1079 1803 1 1803
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/38.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/38.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/38.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/38.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/38.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/38.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/38.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/39.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/39.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/39.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/39.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/39.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/39.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/39.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/40.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/40.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/40.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/40.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/40.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/40.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/40.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+<<pick old state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/41.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/41.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/41.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/41.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/41.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/41.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/41.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/42.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/42.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/42.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/42.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/42.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/42.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/42.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/43.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/43.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/43.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/43.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/43.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/43.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/43.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 208 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/44.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/44.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/44.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/44.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/44.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/44.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/44.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/45.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/45.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/45.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/45.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/45.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/45.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/45.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/46.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/46.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/46.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/46.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/46.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/46.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/46.png
+Execute Output: null
+<<new state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 208 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/47.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/47.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/47.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/47.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/47.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/47.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/47.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/48.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/48.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/48.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/48.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/48.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/48.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/48.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 540 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/49.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/49.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/49.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/49.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/49.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/49.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/49.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat" "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\monkeyrunner.script"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/50.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/50.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/50.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/50.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/50.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/50.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/50.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/51.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/51.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/51.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/51.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/51.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/51.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/51.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1 960 1079 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/52.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/52.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/52.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/52.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/52.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/52.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/52.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input swipe 1079 960 1 960
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/53.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/53.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/53.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/53.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/53.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/53.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/53.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/54.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/54.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/54.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/54.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/54.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/54.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/54.png
+Execute Output: null
+<<new activity>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_MENU
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell uiautomator dump /data/local/tmp/55.xml
+Execute Output: UI hierchary dumped to: /data/local/tmp/55.xml
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell screencap -p /data/local/tmp/55.png
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/55.xml gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" pull /data/local/tmp/55.png gui_pages/20150709_104610
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/55.xml
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell rm /data/local/tmp/55.png
+Execute Output: null
+<<visited state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1079 1086
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "c"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "d"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 284 201
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "a"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input text "b"
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_ENTER
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_DEL
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_BACK
+Execute Output: null
+<<pick old state>>
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am force-stop notepad.sisa.mobi
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell pm clear notepad.sisa.mobi
+Execute Output: Success
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input keyevent KEYCODE_HOME
+Execute Output: null
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell am start -n notepad.sisa.mobi/notepad.sisa.mobi.NoteList
+Execute Output: Starting: Intent { cmp=notepad.sisa.mobi/.NoteList }
+Command: "C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe" shell input tap 1012 1836
+Execute Output: null

@@ -1,0 +1,11 @@
+/*
+	System.out.println("clild index, class ="+childElement.attribute("index").getText()+", "+childElement.attribute("class").getText());
+	System.out.println("clild class type2 ="+((Element)rootElement.elements().get(0)).attribute("class").getText());
+	System.out.println("root node count ="+rootElement.nodeCount());
+	System.out.println("root name ="+rootElement.getName());
+	System.out.println("encode ="+document.getXMLEncoding());
+	System.out.println("rotation ="+rootElement.attribute("rotation").getText());
+	System.out.println("root parent ="+rootElement.getParent());
+	System.out.println("hashCode ="+rootElement.hashCode());
+	((Document)document.clone()).getRootElement()
+*/

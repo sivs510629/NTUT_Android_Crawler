@@ -1,0 +1,31 @@
+* [Done]bug: oldState without execute BackKeyEvent
+
+* [Done]activity edge 用 <a#.s#,click("target"),a#.s# 表示， <a5.s5,press("BackKey"),a6.s7>
+
+* [Done]不同的 Activity 到某個 state 需要有紅色的 event 進來，不要只有出去的 event
+
+* [Done]Node 上面直接顯示 activity_#,state_#， 還有 transition incoming 數量/outgoing 數量/loop 數量
+
+* 到不同的 app 時給個深度 threshold ，如果是觸發 back 跳到其他 app 則不爬該狀態並用 UML 結束符號表示，原本的爬蟲器也給個 threshold
+
+* 論文摘要
+
+* 如何實驗
+
+* 找一個 App ，做實驗
+
+* Relatework: android 測試(keyword, capture and replay)，web crawler(crawljax)
+
+* 7/9之前口試
+
+
+
+* 整理目前爬蟲器可以做到的事及不能做到的事，和爬蟲器的演算法，並且將 Swipe 事件的產生和 ListView 和 GridView 中產生 Click events 這類特殊狀況詳細說明如何處理
+
+* 當有兩種以上的事件可以到達新的 Activity 則需要將這些事件存起來
+
+* 當 Activity 中可觸發的事件都觸發完後，再多試試其他未知的 swipe 事件
+
+* 文字輸入的部分先以英文為優先
+
+* Library 抽取，使得改變或更新 Library 更加容易

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--tools location path-->
+    <adb>C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe</adb>
+    <graphvizLayout>C:\Users\Roger\Desktop\workspace\AndroidCrawler\graphviz-2.38\release\bin\dot.exe</graphvizLayout>
+    <monkeyRunner>C:\Users\Roger\Desktop\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat</monkeyRunner>
+    <!--apk infomation-->
+    <packageName>notepad.sisa.mobi</packageName>
+    <launchableActivity>notepad.sisa.mobi.NoteList</launchableActivity>
+    <!--waiting time (s) , example: 2.5-->
+    <eventWaitingTime>2</eventWaitingTime>
+    <startAppWaitingTime>5</startAppWaitingTime>
+    <stopAppWaitingTime>3</stopAppWaitingTime>
+   	<!--Another App Depth Threshold Value : [ 0..n]-->
+    <anotherAppDepthThreshold>0</anotherAppDepthThreshold>
+</configuration>

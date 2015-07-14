@@ -1,0 +1,11 @@
+digraph activity_3{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150609_085427";
+state_12[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_12</td></tr><tr><td>incoming:4</td></tr><tr><td>outgoing:4</td></tr><tr><td>loop:3</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="12.png"/></td></tr></table>>,shape=box,margin=0,URL="12.png"];
+state_12 -> state_12 [label = "   swipe(\"Right\")   "];
+state_12 -> state_12 [label = "   swipe(\"Left\")   "];
+activity_1 [fontcolor = red,color = red];
+state_12 -> activity_1 [label = "   press(\"BackKey\")   ",fontcolor = red,color = red];
+state_12 -> state_12 [label = "   press(\"MenuKey\")   "];
+activity_1 [fontcolor = red,color = red];
+activity_1 -> state_12 [label = "   click(\"Login\")   ",fontcolor = red,color = red];
+}

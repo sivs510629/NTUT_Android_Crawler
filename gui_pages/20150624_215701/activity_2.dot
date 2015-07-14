@@ -1,0 +1,9 @@
+digraph activity_2{
+imagepath="C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150624_215701";
+state_30[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_30</td></tr><tr><td>incoming:1</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="30.png"/></td></tr></table>>,shape=box,margin=0,URL="30.png"];
+state_39[label=<<table border="0" cellborder="0" cellspacing="0" cellpadding="0"><tr><td>state_39</td></tr><tr><td>incoming:1</td></tr><tr><td>outgoing:0</td></tr><tr><td>loop:0</td></tr><tr><td width="130px" height="230px" fixedsize="true"><img src="39.png"/></td></tr></table>>,shape=box,margin=0,URL="39.png"];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_30 [label = "   click(\"給5星\")   ",fontcolor = red,color = red];
+activity_0 [fontcolor = red,color = red];
+activity_0 -> state_39 [label = "   click(\"給5星\")   ",fontcolor = red,color = red];
+}

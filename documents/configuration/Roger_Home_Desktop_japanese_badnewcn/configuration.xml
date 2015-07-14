@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--tools location path--><aapt>D:\Tools\adt-bundle-windows-x86_64-20140702\sdk\build-tools\android-4.4W\aapt.exe</aapt>
+    <adb>D:\Tools\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\adb.exe</adb>
+    <apk></apk>    
+    <graphvizLayout>C:\Users\Roger\Desktop\AndroidCrawler\AndroidCrawler\graphviz-2.38\release\bin\dot.exe</graphvizLayout>
+    <monkeyRunner>D:\Tools\adt-bundle-windows-x86_64-20140702\sdk\tools\monkeyrunner.bat</monkeyRunner>
+    <!--apk infomation-->
+    <packageName>jp.ejapanese.badnewcn</packageName>
+    <launchableActivity>jp.ejapanese.badnewcn.Splash_Activity</launchableActivity>
+    <!--waiting time (s) , example: 2.5-->
+    <eventWaitingTime>2</eventWaitingTime>
+    <startAppWaitingTime>8</startAppWaitingTime>
+    <stopAppWaitingTime>3</stopAppWaitingTime>
+    <!--Another App Depth Threshold Value : [ 0..n]-->
+    <anotherAppDepthThreshold>0</anotherAppDepthThreshold>
+</configuration>

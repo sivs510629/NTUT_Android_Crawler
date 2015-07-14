@@ -1,0 +1,69 @@
+digraph g {
+graph [color=red];
+imagepath = "C:\Users\Roger\Desktop\workspace\AndroidCrawler\gui_pages\20150609_085427";
+subgraph cluster_0{
+fontcolor = red;
+label = "   activity_0   ";
+state_0 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="0.png",URL="0.png"];
+}
+subgraph cluster_1{
+fontcolor = red;
+label = "   activity_1   ";
+state_1 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="1.png",URL="1.png"];
+state_8 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="8.png",URL="8.png"];
+state_16 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="16.png",URL="16.png"];
+state_19 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="19.png",URL="19.png"];
+}
+subgraph cluster_2{
+fontcolor = red;
+label = "   activity_2   ";
+state_final [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="-2.png",URL="-2.png"];
+}
+subgraph cluster_3{
+fontcolor = red;
+label = "   activity_3   ";
+state_12 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="12.png",URL="12.png"];
+}
+subgraph cluster_4{
+fontcolor = red;
+label = "   activity_4   ";
+state_17 [label="",shape=box,fixedsize=true,width=1.8,height=3.2,image="17.png",URL="17.png"];
+}
+state_0 -> state_0 [label = "   swipe(\"Right\")   "];
+state_0 -> state_0 [label = "   swipe(\"Left\")   "];
+state_0 -> state_0 [label = "   press(\"MenuKey\")   "];
+state_0 -> state_1 [label = "   click(\"OK\")   "];
+state_0 -> state_final [label = "   press(\"BackKey\")   "];
+state_1 -> state_1 [label = "   click(\"index=0\")   "];
+state_1 -> state_1 [label = "   longClick(\"index=0\")   "];
+state_1 -> state_8 [label = "   \"index=0\".input(\"admin\")   "];
+state_1 -> state_1 [label = "   click(\"Login\")   "];
+state_1 -> state_1 [label = "   swipe(\"Right\")   "];
+state_1 -> state_1 [label = "   swipe(\"Left\")   "];
+state_1 -> state_0 [label = "   press(\"BackKey\")   "];
+state_1 -> state_19 [label = "   press(\"MenuKey\")   "];
+state_8 -> state_8 [label = "   click(\"admin\")   "];
+state_8 -> state_8 [label = "   longClick(\"index=0\")   "];
+state_8 -> state_8 [label = "   \"index=0\".input(\"admin\")   "];
+state_8 -> state_8 [label = "   swipe(\"Right\")   "];
+state_8 -> state_8 [label = "   swipe(\"Left\")   "];
+state_8 -> state_0 [label = "   press(\"BackKey\")   "];
+state_8 -> state_16 [label = "   press(\"MenuKey\")   "];
+state_8 -> state_12 [label = "   click(\"Login\")   "];
+state_16 -> state_19 [label = "   swipe(\"Right\")   "];
+state_16 -> state_19 [label = "   swipe(\"Left\")   "];
+state_16 -> state_8 [label = "   press(\"BackKey\")   "];
+state_16 -> state_8 [label = "   press(\"MenuKey\")   "];
+state_16 -> state_17 [label = "   click(\"index=0\")   "];
+state_16 -> state_17 [label = "   click(\"index=0\")   "];
+state_19 -> state_19 [label = "   swipe(\"Right\")   "];
+state_19 -> state_8 [label = "   press(\"BackKey\")   "];
+state_19 -> state_17 [label = "   click(\"index=0\")   "];
+state_19 -> state_17 [label = "   click(\"index=0\")   "];
+state_19 -> state_17 [label = "   swipe(\"Left\")   "];
+state_19 -> state_17 [label = "   press(\"MenuKey\")   "];
+state_12 -> state_12 [label = "   swipe(\"Right\")   "];
+state_12 -> state_12 [label = "   swipe(\"Left\")   "];
+state_12 -> state_8 [label = "   press(\"BackKey\")   "];
+state_12 -> state_12 [label = "   press(\"MenuKey\")   "];
+}
